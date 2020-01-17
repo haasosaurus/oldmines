@@ -547,8 +547,8 @@ class Game(object):
         # set pygame clock
         self.clock = pygame.time.Clock()
 
-        self.mine_image = pygame.image.load("images/mine20x20.png").convert_alpha()
-        self.flag_image = pygame.image.load("images/flag20x20.png").convert_alpha()
+        self.mine_image = pygame.image.load("mine20x20.png").convert_alpha()
+        self.flag_image = pygame.image.load("flag20x20.png").convert_alpha()
 
     def run_logic(self):
         """
